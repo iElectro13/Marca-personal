@@ -1,0 +1,137 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+
+.info.dark {
+    background-color: #2B2A2B;
+    
+    ;
+}
+
+.dark {
+    color: #EAEAEA;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.font-example {
+    font-weight: regular;
+    font-size: 5rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EAEAEA;
+    width: 10rem;
+    height: 3rem;
+}
+
+.color.dark {
+    background-color: #2B2A2B;
+    color: #7ACADC;
+}
+
+.color.light {
+    background-color: #EAEAEA;
+    color: #2B2A2B;
+}
+
+.color.primary {
+    background-color: #7ACADC;
+    color: #2B2A2B;
+}
+
+.small {
+    max-width: 150px;
+}
+
+.small.reduction img {
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+picture {
+    overflow: hidden;
+}
+
+.info.dual {
+    display: inline;
+}
+
+
+
+.title.dual-text {
+    position: relative;
+    text-align: right;
+    margin-right: -6rem;
+    z-index: 100;
+    color: #2B2A2B
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.change {
+    color: #EAEAEA;
+}
+
+
+.trampa {
+    color: #2B2A2B;
+}
+
+.transform {
+    height: 300px;
+    width: 150px;
+}
+
+.rotated {
+    transform: rotate(-25deg);
+    width: 250px;
+}
+
+.width {
+    height: 100px;
+    width: 100%;
+}
+
+.info.b {
+    background-color: #dfdfdf;
+}
+
+.info.dark.b {
+    background-color: #313131;
+
+}
