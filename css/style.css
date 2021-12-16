@@ -13,8 +13,8 @@ main {
     justify-content: center;
     background-color: #EAEAEA;
     padding: 20px;
-    min-width: 400px;
-    min-height: 400px;
+
+    min-height: 300px;
 }
 
 .info.dark {
@@ -139,10 +139,11 @@ picture {
 }
 
 img {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .horizontal {
+    width: 250px;
     max-width: 400px;
 }
 
