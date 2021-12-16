@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: 1fr 1fr;
     width: 80%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
@@ -147,7 +147,14 @@ img {
     max-width: 400px;
 }
 
-@media screen and (max-width: 1095px){
+@media screen and (max-width: 816px){
+    main {
+
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+    }
+
     .info.dual {
         display: flex;
         flex-direction: column;
@@ -166,6 +173,11 @@ img {
     }
     .change {
         color: #2B2A2B;
+    }
+    .trampa {
+    font-size: 2rem;
+
+        color: #EAEAEA;
     }
     
 }
