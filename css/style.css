@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     width: 80%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
