@@ -70,7 +70,7 @@ main {
 }
 
 .small {
-    max-width: 150px;
+    width: 80px;
 }
 
 .small.reduction img {
