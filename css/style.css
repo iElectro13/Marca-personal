@@ -120,6 +120,7 @@ picture {
 .rotated {
     transform: rotate(-25deg);
     width: 250px;
+    margin: 20px;
 }
 
 .width {
@@ -134,4 +135,12 @@ picture {
 .info.dark.b {
     background-color: #313131;
 
+}
+
+img {
+    max-width: 200px;
+}
+
+.horizontal {
+    max-width: 400px;
 }
